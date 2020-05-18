@@ -1,5 +1,5 @@
-# Blink Example
-
-Starts a FreeRTOS task to blink an LED
-
-See the README.md file in the upper level 'examples' directory for more information about examples.
+# Esp_io_test
+设置不同的频率观察io翻转情况
+## 一些bug
+- `static uint32_t intr_times = 0;`
+- `if(100 == intr_times)`
